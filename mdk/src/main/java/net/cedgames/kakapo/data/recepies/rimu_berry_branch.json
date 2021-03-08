@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": [
+      {
+        "item": "kakapo:rimu_berry"
+      }
+    ]
+  },
+  "result": {
+    "item": "kakapo_rimu_berry_branch",
+    "count": 1
+  }
+}
