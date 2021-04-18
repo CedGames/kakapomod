@@ -14,6 +14,14 @@ public class ModTags {
 
         public static final ITag.INamedTag<Block> RIMU_LEAVES = forge("gravel/rimu_leaves");
 
+        public static final ITag.INamedTag<Block> RIMU_LOG = forge("gravel/rimu_log");
+
+        public static final ITag.INamedTag<Block> RIMU_LOG_MOSS = forge("gravel/rimu_log_moss");
+
+        public static final ITag.INamedTag<Block> RIMU_BERRY_BRANCH = forge("gravel/rimu_berry_branch");
+
+        public static final ITag.INamedTag<Block> RIMU_PLANKS = forge("gravel/rimu_planks");
+
         private static ITag.INamedTag<Block> forge(String path) {
             return BlockTags.makeWrapperTag(new ResourceLocation("forge", path).toString());
         }
@@ -30,7 +38,21 @@ public class ModTags {
 
         public static final ITag.INamedTag<Item> RIMU_LEAVES = forge("gravel/rimu_leaves");
 
-        public static final ITag.INamedTag<Item> RIMU_BERRY = forge("crops_carrot/rimu_berry");
+        public static final ITag.INamedTag<Item> RIMU_LOG = forge("gravel/rimu_log");
+
+        public static final ITag.INamedTag<Item> RIMU_LOG_MOSS = forge("gravel/rimu_log_moss");
+
+        public static final ITag.INamedTag<Item> RIMU_BERRIES = forge("crops_carrot/rimu_berries");
+
+        public static final ITag.INamedTag<Item> RIMU_BERRY_BRANCH = forge("gravel/rimu_berry_branch");
+
+        public static final ITag.INamedTag<Item> RIMU_PLANKS = forge("gravel/rimu_planks");
+
+        public static final ITag.INamedTag<Item> KAKAPO_SPAWN_EGG = forge("bones/kakapo_spawn_egg");
+
+        public static final ITag.INamedTag<Item> RAW_KAKAPO = forge("bones/raw_kakapo");
+
+        public static final ITag.INamedTag<Item> COOKED_KAKAPO = forge("bones/cooked_kakapo");
 
         private static ITag.INamedTag<Item> forge(String path) {
             return ItemTags.makeWrapperTag(new ResourceLocation("forge", path).toString());

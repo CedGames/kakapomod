@@ -16,6 +16,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     {
         simpleBlock(ModBlocks.KAKAPO_NEST.get());
         simpleBlock(ModBlocks.RIMU_LEAVES.get());
+        logBlock(ModBlocks.RIMU_LOG.get());
+        logBlock(ModBlocks.RIMU_LOG_MOSS.get());
+        simpleBlock(ModBlocks.RIMU_BERRY_BRANCH.get());
+        simpleBlock(ModBlocks.RIMU_PLANKS.get());
+
+
     }
 }
 

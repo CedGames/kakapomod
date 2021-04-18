@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "kakapo:kakapo_beak"
+    },
+    "title": {
+      "translate": "advancements.adventure.party_parrot.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.party_parrot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_shagged": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0
+          },
+          "type": {
+            "source_entity": {
+              "type": "minecraft:zombie"
+            }
+          }
+        }
+      },
+      "requirements": [
+        [
+          "get_shagged"
+        ]
+      ]
+    }
+  }
+}

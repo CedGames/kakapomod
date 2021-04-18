@@ -2,5 +2,15 @@
   "item.kakapo.kakapo_beak": "Kakapo Beak",
   "block.kakapo.kakapo_nest": "Kakapo Nest",
   "block.kakapo.rimu_leaves": "Rimu Leaves",
-  "item.kakapo.rimu_berry": "Rimu Berry"
+  "item.kakapo.rimu_berries": "Rimu Berries",
+  "block.kakapo.rimu_log": "Rimu Log",
+  "block.kakapo.rimu_log_moss": "Mossy Rimu Log",
+  "item.kakapo.kakapo_spawn_egg": "Kakapo Spawn Egg",
+  "block.kakapo.rimu_planks": "Rimu Planks",
+  "advancements.husbandry.kakapo_viagra.title": "Viagra for Kakapo",
+  "advancements.husbandry.kakapo_viagra.description": "They do not breed unless there is a plentiful supply of Rimu Berries",
+  "advancements.adventure.party_parrot.title": "You are being shagged",
+  "advancements.adventure.party_parrot.description": "Get attacked by a wild Kakapo",
+  "item.kakapo.raw_kakapo": "Raw Kakapo",
+  "item.kakapo.cooked_kakapo": "Cooked Kakapo"
 }

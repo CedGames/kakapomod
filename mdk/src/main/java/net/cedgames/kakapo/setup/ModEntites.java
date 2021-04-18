@@ -31,7 +31,7 @@ public class ModEntites
 {
 
     public static EntityType<?> KAKAPO;
-
+/*
     public static void registerEntitySpawnEggs(final RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll();
@@ -47,6 +47,7 @@ public class ModEntites
 
 
     }
+ */
 
 /*
 

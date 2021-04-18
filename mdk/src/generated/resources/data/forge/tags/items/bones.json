@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#forge:bones/kakapo_beak"
+    "#forge:bones/kakapo_beak",
+    "#forge:bones/kakapo_spawn_egg",
+    "#forge:bones/raw_kakapo",
+    "#forge:bones/cooked_kakapo"
   ]
 }

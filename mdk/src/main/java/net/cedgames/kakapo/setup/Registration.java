@@ -32,8 +32,4 @@ public class Registration
         ModEntites.register();
     }
 
-    public static void registerItems(final RegistryEvent.Register<Item> event)
-    {
-        ModEntites.registerEntitySpawnEggs(event); // https://youtu.be/IAwTCVl9Z4U?t=334
-    }
 }

@@ -21,10 +21,20 @@ public class ModItemModelProvider extends ItemModelProvider
 
         withExistingParent("rimu_leaves", modLoc("block/rimu_leaves"));
 
+        withExistingParent("rimu_log", modLoc("block/rimu_log"));
+
+        withExistingParent("rimu_log_moss", modLoc("block/rimu_log_moss"));
+
+        withExistingParent("rimu_berry_branch", modLoc("block/rimu_berry_branch"));
+
+        withExistingParent("rimu_planks", modLoc("block/rimu_planks"));
+
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
         builder(itemGenerated, "kakapo_beak");
-        builder(itemGenerated, "rimu_berry");
+        builder(itemGenerated, "rimu_berries");
+        builder(itemGenerated, "raw_kakapo");
+        builder(itemGenerated, "cooked_kakapo");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name)
